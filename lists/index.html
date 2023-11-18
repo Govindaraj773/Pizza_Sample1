@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <div>
+        <p>Unordered List</p>
+        <ul>
+            <li visibility: hidden>Unorder list 1</li>
+            <li>Unorder list 2</li>
+            <li>Unorder list 3</li>
+        </ul>
+    </div>
+    <div>
+        <p>Ordered List</p>
+        <ol>
+            <li display: none >Ordered list 1</li>
+            <li>Ordered list 2</li>
+            <li>Ordered list 3</li>
+        </ol>
+    </div>
+    <div>
+        <p>Defination List</p>
+        <dl>
+            <dt>Div element</dt>
+            <dd>This is a block level element</dd>
+            <dt>Span element</dt>
+            <dd>This is inline level element</dd>
+            
+        </dl>
+    </div>
+
+    <div>
+        <p style="background-color: red;">Hello Javascript...</p>
+    </div>
+
+    <form action="submit">
+        <label>Enter your name</label>
+        <input type="text" name="name" />
+        <label>Enter your Mobile number</label>
+        <input type="number" name="number" />
+        <label>Enter your Gmail</label>
+        <input type="mail" name="email" />
+    </form>
+</body>
+</html>
+ 
+<!DOCTYPE html>
+<html>
+   <body style="padding-top:50px">
+       <h3 id="event_demo">0</h3>
+       <input type="button" onclick="myFunction()" value="Click Me" />
+       <input type="reset" onclick="reset()" value="Reset" />
+   </body>
+   
+   <script>
+       function myFunction() {
+           var value = document.getElementById("event_demo").innerHTML
+           value = parseInt(value) + 1;
+           document.getElementById("event_demo").innerHTML = value;
+       }
+       function reset() {
+           document.getElementById("event_demo").innerHTML = 0;
+       }
+   </script>
+</html>
