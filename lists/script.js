@@ -14,3 +14,12 @@ if(p===10){
     console.log(p)
 }
 console.log(p)
+
+// Even or Odd number.
+const a = 8;
+const b = 9;
+if(a == b) {
+    console.log(true);
+}else {
+    console.log(false)
+}   
